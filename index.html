@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="res/imgs/harry.png" type="image/x-icon">
+    <link rel="stylesheet" href="res/utils/loco.css">
+    <link rel="stylesheet" href="res/utils/responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -22,13 +24,34 @@
             <div class="bounding">
                 <h1 class="boundingElement">the course</h1>
             </div>
-            <div class="video-cont">
-                <div id="play">play</div>
-                <video autoplay loop muted src="#"></video>
+            <div class="img-cont">
+                <!-- <div id="play">play</div> -->
+                <img src="res/imgs/mid1.webp" alt="">
             </div>
+        </div>
+        <div class="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="1" src="res/imgs/pr1.webp" alt="product">
+                <div data-scroll data-scroll-speed="-1" class="imgcontent "></div>
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="1" src="res/imgs/pr2.webp" alt="product">
+                <div data-scroll data-scroll-speed="-1" class="imgcontent"></div>
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="1" src="res/imgs/pr3.webp" alt="product">
+                <div data-scroll data-scroll-speed="-1" class="imgcontent"></div>
+            </div>
+        </div>
+        <div class="page3">
+            <div class="child" id="child1"></div>
+            <div class="child" id="child2"></div>
+            <div class="child" id="child3"></div>
+            <div class="child" id="child4"></div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 

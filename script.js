@@ -1,5 +1,10 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
 function videoAnimation() {
-    let videocon = document.querySelector('.video-cont');
+    let videocon = document.querySelector('.img-cont');
     let playbtn = document.querySelector('#play');
 
     videocon.addEventListener("mouseenter", function () {
@@ -32,13 +37,16 @@ function inOutAnimation() {
         stagger: .6
     })
 
-    gsap.from('.page1 .video-cont', {
+    gsap.from('.page1 .img-cont', {
         opacity: 0,
         delay: 1.5,
         duration: .9,
         stagger: 1.5
     })
 }
+
+
+
 
 
 
