@@ -34,4 +34,15 @@
     .page2 .elem img {
         padding-bottom: 2vh;
     }
+
+    /* .page3 {
+        height: 70vh;
+        width: 100%;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+
+    .child {
+        height: 18vh;
+    } */
 }
